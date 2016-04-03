@@ -1,0 +1,9 @@
+
+<div ng-controller="MatrixCtrl" class="matrix center-block">
+  
+  <h2 class="text-center">Karratu gorria</h2>
+  <div data-ng-repeat="cell in matrix" class="matrix-cell matrix-cell-value-{{cell.value ? 1:0}}" ng-click="cellClick(cell.index,cell.value,cell.x,cell.y)">
+   </div>
+ 
+  
+  </div>
